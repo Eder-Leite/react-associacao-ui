@@ -84,7 +84,7 @@ html {
 
 body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   color: #333333;
   background-color: #edf0f5;
   margin: 0;
@@ -168,7 +168,7 @@ a {
         .layout-wrapper .layout-topbar .layout-topbar-icons .layout-topbar-search input {
           display: inline-block;
           border: 0 none;
-          font-size: 13px;
+          font-size: 14px;
           background: transparent;
           border-bottom: 2px solid #ffffff;
           outline: 0 none;
@@ -677,7 +677,7 @@ h2 {
         position: absolute;
         right: 10px;
         top: 30px;
-        font-size: 13px;
+        font-size: 14px;
         color: #707070; }
       .dashboard .contacts ul li button:hover {
         cursor: pointer;
@@ -1512,18 +1512,3 @@ h2 {
 
 .ql-container.ql-snow * {
   box-sizing: border-box; }
-
-body .p-datatable .p-datatable-tbody > tr > td {
-    background: inherit;
-    border: 1px solid #c8c8c8;
-}  
-
-body .p-inputtext {
-  font-size: 13px;
-}  
-body .p-component {
-  font-size: 13px;
-}
-.p-dropdown-filter-container{
-  width: 100%
-}

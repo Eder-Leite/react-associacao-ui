@@ -5,13 +5,15 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "typescript": "^3.5.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "node server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +29,25 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@fullcalendar/core": "^4.3.1",
+    "@fullcalendar/daygrid": "^4.3.0",
+    "@fullcalendar/interaction": "^4.3.0",
+    "@fullcalendar/timegrid": "^4.3.0",
+    "axios": "^0.19.0",
+    "chart.js": "^2.8.0",
+    "classnames": "^2.2.6",
+    "ejs": "^2.6.2",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.24.0",
+    "primeflex": "^1.0.0-rc.1",
+    "primeicons": "^1.0.0",
+    "primereact": "^3.1.7",
+    "react-big-calendar": "^0.22.0",
+    "react-loading": "^2.0.3",
+    "react-router-dom": "^5.0.1",
+    "react-transition-group": "^4.2.1"
+  },
+  "homepage": "/"
 }
